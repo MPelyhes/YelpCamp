@@ -33,7 +33,8 @@ const seedDB = async () => {
           url: 'https://res.cloudinary.com/pelyhescloud/image/upload/v1612996662/YelpCamp/ndp4nf0cm7aairdglcq4.jpg',
           filename: 'YelpCamp/ndp4nf0cm7aairdglcq4'
         }
-      ]
+      ],
+      geometry: { type: 'Point', coordinates: [ -87.6244, 41.8756 ] }
       
     })
     await camp.save();
